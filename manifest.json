@@ -1,0 +1,13 @@
+{
+    "name":"Citat Generator",
+    "version":"1.0",
+    "description":"Citat Generatorn ger dig ett nytt citat varje gång du öppnar en ny flik. Tanken är att motivera och inspirera.",
+    "chrome_url_overrides":{
+        "newtab":"newtab.html"
+    },
+    "background":{
+        "page":"background.html",
+        "persistent":false
+    },
+    "manifest_version":2
+}
